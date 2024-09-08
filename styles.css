@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif; /* A modern, clean font */
+    background-color: #f0f2f5; /* Soft background color */
+    color: #2c3e50; /* Darker shade for text */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff; /* Bright white background */
+    border-radius: 12px; /* Slightly larger, softer corners */
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow for depth */
+    max-width: 900px; /* Increased max width for better readability */
+}
+
+h1, h2 {
+    color: #34495e; /* Dark slate blue color for headings */
+    font-weight: 600; /* Bold headings */
+}
+
+form {
+    margin-bottom: 30px; /* More spacing for clarity */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px; /* More space between label and input */
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px; /* Larger spacing */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Softer, rounded inputs */
+    font-size: 16px; /* Larger input text */
+    background-color: #f9fafb; /* Light background inside inputs */
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #28a745; /* Vibrant green for primary buttons */
+    color: #fff;
+    border: none;
+    border-radius: 8px; /* Rounded buttons */
+    font-size: 16px; /* Larger button text */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+#shareOptions a {
+    color: #17a2b8; /* Bright cyan for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#shareOptions a:hover {
+    text-decoration: underline;
+}
+
+.editable {
+    color: #3498db; /* Light blue for editable sections */
+    cursor: pointer;
+    border-bottom: 1px dashed #3498db;
+}
+
+.editable:hover {
+    text-decoration: underline;
+}

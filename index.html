@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Your Resume</h1>
+        <form id="resumeForm">
+            <label for="username">Username*</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="firstName">First Name*</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name*</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Generate Resume</button>
+        </form>
+
+        <!-- Shareable Link and Resume Preview -->
+        <div id="resumePreview" style="display:none;">
+            <h2>Resume Preview</h2>
+            <div id="resumeContent"></div>
+
+            <!-- Shareable link and download options -->
+            <div id="shareOptions" style="display:none;">
+                <p>Share your resume:</p>
+                <a href="#" id="resumeLink" target="_blank">View Resume</a>
+                <button id="downloadResumeButton">Download as PDF</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
