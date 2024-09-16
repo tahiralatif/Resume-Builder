@@ -5,29 +5,44 @@ body {
     margin: 0;
     padding: 0;
 }
+#Creater{
+    text-transform:capitalize;
+    text-align: center;
+    background-color:#264b2e;
+    color: white;
+}
+
+
 
 .container {
     width: 80%;
     margin: auto;
     padding: 30px;
-    background-color: #ffffff; /* Bright white background */
-    border-radius: 12px; /* Slightly larger, softer corners */
-    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow for depth */
-    max-width: 900px; /* Increased max width for better readability */
+    background-color: #cfecdc; 
+    border-radius: 12px; 
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15); 
+    max-width: 900px; 
 }
 
-h1, h2 {
-    color: #34495e; /* Dark slate blue color for headings */
-    font-weight: 600; /* Bold headings */
+ h2 {
+    color: #34495e; 
+    font-weight: 600; 
+}
+h1{
+    color: #fbfcfb;
+    background-color: #264b2e;
+    text-align: center;
+   
 }
 
 form {
-    margin-bottom: 30px; /* More spacing for clarity */
+    margin-bottom: 30px;
+    background-color: #ddf3e5; 
 }
 
 label {
     display: block;
-    margin-bottom: 8px; /* More space between label and input */
+    margin-bottom: 8px; 
     color: #2c3e50;
     font-weight: bold;
 }
@@ -42,19 +57,21 @@ input, textarea {
     background-color: #f9fafb; /* Light background inside inputs */
 }
 
+input, textarea:active{
+    border-radius: 2px rgb(5, 53, 5);
+}
 button {
     padding: 12px 24px;
-    background-color: #28a745; /* Vibrant green for primary buttons */
+    background-color: #264b2e; /* Vibrant green for primary buttons */
     color: #fff;
     border: none;
-    border-radius: 8px; /* Rounded buttons */
-    font-size: 16px; /* Larger button text */
+    border-radius: 8px; 
+    font-size: 16px; 
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Smooth hover effect */
-}
+    transition: background-color 0.3s ease; }
 
 button:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #218838; 
 }
 
 #shareOptions a {
@@ -63,14 +80,16 @@ button:hover {
     font-weight: bold;
 }
 
+
+
 #shareOptions a:hover {
     text-decoration: underline;
 }
 
 .editable {
-    color: #3498db; /* Light blue for editable sections */
+    color: #34db8d; /* Light blue for editable sections */
     cursor: pointer;
-    border-bottom: 1px dashed #3498db;
+    border-bottom: 1px dashed #34db95;
 }
 
 .editable:hover {

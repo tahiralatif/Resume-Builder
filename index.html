@@ -10,6 +10,7 @@
     <div class="container">
         <h1>Create Your Resume</h1>
         <form id="resumeForm">
+
             <label for="username">Username*</label>
             <input type="text" id="username" name="username" required>
 
@@ -22,8 +23,19 @@
             <label for="email">Email*</label>
             <input type="email" id="email" name="email" required>
 
+            
+            <!-- <label for="experince">Experience*</label>
+            <input type="text" id="experince" name="experience"  placeholder="experience">
+
+            
+            <label for="education">Edcation*</label>
+            <input type="text" id="education" name="education" placeholder="education" required> -->
+
+
+
             <button type="submit">Generate Resume</button>
         </form>
+        <h2 id="Creater"> Created by Tahira Rajput</h2>
 
         <!-- Shareable Link and Resume Preview -->
         <div id="resumePreview" style="display:none;">
@@ -36,6 +48,7 @@
                 <a href="#" id="resumeLink" target="_blank">View Resume</a>
                 <button id="downloadResumeButton">Download as PDF</button>
             </div>
+           
         </div>
     </div>
 

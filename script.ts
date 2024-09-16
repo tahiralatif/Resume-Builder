@@ -8,6 +8,9 @@ document.getElementById("resumeForm")?.addEventListener("submit", function (even
     const firstName = formData.get("firstName") as string;
     const lastName = formData.get("lastName") as string;
     const email = formData.get("email") as string;
+    // const experience = formData.get("experience") as string;
+    // const education = formData.get("education") as string;
+
 
     // Generate a unique resume URL based on the username
     const uniqueURL = `${window.location.origin}/resume/${username}`;
